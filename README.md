@@ -1,5 +1,5 @@
 # oao-docker
-Simple repository to test oao with docker (link to guigrpa/oao#15)
+Simple repository to test oao with docker (link to [guigrpa/oao#15](https://github.com/guigrpa/oao/issues/15))
 
 ### Getting started
 
