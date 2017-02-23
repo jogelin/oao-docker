@@ -1,0 +1,16 @@
+{
+  "name": "@oaodocker/monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "homepage": "",
+  "bugs": "",
+  "author": "Jonathan Gelin <jonathan.gelin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "_docker": "npm install yarn -g --progress=false && npm install && oao \"bootstrap -s ./packages/*/\""
+  },
+  "devDependencies": {
+    "oao": "^0.5.5"
+  }
+}

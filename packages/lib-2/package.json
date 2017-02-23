@@ -1,0 +1,9 @@
+{
+  "name": "@oaodocker/lib-2",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@oaodocker/lib-1": "0.0.0-VERSION_PLACEHOLDER"
+  }
+}
