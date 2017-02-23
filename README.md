@@ -1,9 +1,16 @@
 # oao-docker
 Simple repository to test oao with docker (link to guigrpa/oao#15)
 
-With docker, oao command failed if not well formated in scripts :
+### Getting started
 
-If there are more than one lib, in main package.json :
+```
+$ docker-compose run js-build
+```
+
+With docker, oao command failed if :
+* there are more than one lib
+* if the script called by docker in main package.json :
+
 ```
 "scripts": {
     //this will fail
@@ -19,3 +26,4 @@ If there are more than one lib, in main package.json :
     "_docker": "...&& oao \"bootstrap -s ./packages/*\""
   }
 ```
+
